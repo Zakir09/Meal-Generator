@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #444444, #000000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+header {
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #b0e796 0%, #86d0da 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000; 
+}
+
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_meal {
+    text-align: center;
+}
+
+.header {
+
+    color: rgb(255, 255, 255);
+    margin: 2rem 0;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    color: #fff;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+}
+
+.select-box {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-primary {
+    background: rgb(86, 255, 71);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.button-primary:hover {
+    background: #00c700;
+}
+
+.meal-container {
+    margin-top: 2rem;
+    display: none;
+}
+
+
+.row.meal {
+    margin-top: 2rem;
+    width: 40%; 
+    margin: 2rem auto; 
+    background-color: #3b3b3b;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.meal-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+.recipe-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.recipe-category {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.recipe-meal-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.meal-details {
+    flex: 1;
+    padding: 1rem;
+}
+
+.recipe-instruct {
+    margin: 1rem 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.recipe-instruct h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.recipe-instruct p {
+    line-height: 2.5;
+}
+
+.recipe-link a {
+    color: #00c700;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.recipe-link a:hover {
+    color: #009a00;
+}
+
+
+/* Apply styles for screens smaller than 768px (typical smartphones) */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+
+    .container_meal {
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .header {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .form-container {
+        max-width: 90%; /* Reduce the form container's width for smaller screens */
+        margin: 1rem auto; /* Add some margin to center the form */
+    }
+
+    .form-group {
+        margin: 1rem 0; /* Reduce the margin between form groups */
+    }
+
+    .button-primary {
+        width: 100%; /* Make the button full-width */
+        font-size: 1rem; /* Restore the button font size */
+    }
+
+    .row.meal {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 2rem auto;
+    }
+}
+
+/* Apply styles for screens smaller than 576px (small smartphones) */
+@media (max-width: 576px) {
+    .logo {
+        font-size: 1.5rem; /* Reduce logo font size */
+    }
+
+    .form-group {
+        margin: 0.5rem 0; /* Reduce the margin further */
+    }
+
+    .button-primary {
+        font-size: 0.9rem; /* Reduce button font size */
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Bites - Personalized Diet Menu Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h1 class="logo">HEALTHY BITES</h1>
+        </div>
+    </header>
+    <main>
+        <section class="container_meal">
+            <div class="row text-center">
+                <h1 class="header">Feeling hungry?</h1>
+                <h2 class="header">Get a random meal by clicking below</h2>
+                <div class="form-container">
+                    <div class="form-group">
+                        <label for="diets" class="paragraph">Choose a diet plan:</label>
+                        <select name="diets" id="diets" class="select-box">
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                            <option value="glutenFree">Gluten Free</option>
+                            <option value="paleo">Paleo</option>
+                            <option value="ketogenic">Ketogenic</option>
+                            <option value="lowCarb">Low Carb</option>
+                            <option value="mediterranean">Mediterranean</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="type" class="paragraph">Choose a meal type:</label>
+                        <select name="type" id="type" class="select-box">
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                        </select>
+                    </div>
+                    <button class="button-primary" id="get_meal">Get Meal 🍔</button>
+                </div>
+            </div>
+            <div id="meal" class="row meal"></div>
+        </section>
+    </main>
+</body>
+</html>
