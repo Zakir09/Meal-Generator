@@ -1,1 +1,1 @@
-# Project: Meal Generator
+# Project: Diet Menu Generator
