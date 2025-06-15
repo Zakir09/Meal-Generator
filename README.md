@@ -1,5 +1,7 @@
 # Project: Diet Menu Generator
 
+<img src="assets/banner.gif" alt="banner" width="600">
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
