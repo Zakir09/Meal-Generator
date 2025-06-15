@@ -22,12 +22,12 @@ This project was created to explore working with third-party APIs, asynchronous 
 
 <h2 id="features">Features</h2>
 
-- 🍽 Choose from various **diet types** (e.g., vegan, paleo, ketogenic)
-- 🕘 Filter by **meal time** (breakfast, lunch, dinner)
-- ⚡ Fetches random meals using the **Spoonacular API**
-- 📸 Displays **images**, summaries, and links to full recipes
-- 📱 **Mobile responsive** and user-friendly layout
-- ✅ Includes **error handling** for failed API calls
+- Choose from various **diet types** (e.g., vegan, paleo, ketogenic)
+- Filter by **meal time** (breakfast, lunch, dinner)
+- Fetches random meals using the **Spoonacular API**
+- Displays **images**, summaries, and links to full recipes
+- **Mobile responsive** and user-friendly layout
+- Includes **error handling** for failed API calls
 
 ---
 
