@@ -41,6 +41,22 @@ Explore the project in action below. This live version allows users to generate 
 
 <h2 id="technologies-used">Technologies Used</h2>
 
+- **HTML5** & **CSS3**
+- **Vanilla JavaScript (ES6+)**
+- [**Spoonacular API**](https://spoonacular.com/food-api)
+- **Responsive Design**
+- **Google Fonts** – [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
+
 ---
 
 <h2 id="explore-code">Explore the Code</h2>
+
+This project was originally built some time ago as a fun way to practise working with APIs and build something interactive. While I’m not actively maintaining it, feel free to explore, fork, or build on it if you'd like to take it further!
+
+The core files include:
+
+- `index.html` – handles the layout and structure
+- `styles.css` – styles the interface, including responsive design
+- `scripts.js` – fetches random meals from the Spoonacular API based on user selections
+
+Pull requests or experiments welcome — or just poke around and enjoy!
